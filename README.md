@@ -1,12 +1,24 @@
 # 3D-UNet-Denoising
 PyTorch implementation of a 3D UNet model designed to remove noise from Electron Density data generated using stochastic Density Functional Theory (sDFT) calculations. The primary objective of this implementation is to reduce noise and enhance the overall quality of the electron density.
 
-## Examples
+## Table of Contents
+
+- [De-noise Electron Density with U-Net](#de-noise-electron-density-with-u-net)
+  - [Examples](#example)
+  - [Usage](#usage)  
+- [Cite](#cite)
+## De-noise Electron Density with U-Net
+<a name="de-noise-electron-density-with-u-net"></a>
+
+### Examples
+<a name="example"></a>
+
 ![Example of denoising for Diamond system](PostProc-code/c8_density.png)
 
 ![Example of denoising for Diamond system](PostProc-code/c8_density_1d.png)
 
-## Usage
+### Usage
+<a name="usage"></a>
 
 ```bash
 usage: main.py [-h] [--epochs EPOCHS] [--lr LR] [--batch_size BATCH_SIZE] [--print_freq PRINT_FREQ] [--restart] [--log_dir LOG_DIR] [--log_file LOG_FILE] [--train] [--train_data_dir TRAIN_DATA_DIR]
@@ -43,6 +55,7 @@ options:
 ```
 
 ## Cite
+<a name="cite"></a>
 
 If you use this code or find it helpful in your research, please consider citing the project:
 
