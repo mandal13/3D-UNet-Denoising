@@ -40,3 +40,18 @@ options:
                         Test data size (if not specified takes all data)
   --print_density       Do you want to print the density predictions ?
   --pred_dir PRED_DIR   Directory for printing density predictions with ground truth data
+```
+
+## Cite
+
+If you use this code or find it helpful in your research, please consider citing the project:
+
+```bash
+@misc{YourProjectName,
+author = {Your Name},
+title = {De-noise Electron Density with U-Net},
+year = {Year},
+howpublished = {\url{GitHub repository URL}},
+note = {Online; accessed Date}
+}
+```
