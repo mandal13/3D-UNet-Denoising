@@ -8,10 +8,6 @@ PyTorch implementation of a 3D UNet model designed to remove noise from Electron
 
 ## Usage
 
-## De-noise Electron Density with U-Net
-
-### Usage
-
 ```bash
 usage: main.py [-h] [--epochs EPOCHS] [--lr LR] [--batch_size BATCH_SIZE] [--print_freq PRINT_FREQ] [--restart] [--log_dir LOG_DIR] [--log_file LOG_FILE] [--train] [--train_data_dir TRAIN_DATA_DIR]
                [--train_size TRAIN_SIZE] [--val_data_dir VAL_DATA_DIR] [--val_size VAL_SIZE] [--test] [--test_data_dir TEST_DATA_DIR] [--test_size TEST_SIZE] [--print_density] [--pred_dir PRED_DIR]
