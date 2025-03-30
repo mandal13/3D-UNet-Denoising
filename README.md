@@ -60,11 +60,11 @@ options:
 If you use this code or find it helpful in your research, please consider citing the project:
 
 ```bash
-@misc{YourProjectName,
-author = {Your Name},
-title = {De-noise Electron Density with U-Net},
-year = {Year},
-howpublished = {\url{GitHub repository URL}},
+@misc{3D-UNet-Denoising,
+author = {Sagarmoy Mandal},
+title = {3D-UNet-Denoising},
+year = {2023},
+howpublished = {\url{https://github.com/mandal13/3D-UNet-Denoising}},
 note = {Online; accessed Date}
 }
 ```
